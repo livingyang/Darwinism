@@ -26,6 +26,12 @@
 		279C04E816393343007298E5 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 279C04E416393343007298E5 /* ViewController.m */; };
 		279C04E916393343007298E5 /* ViewController_iPhone.xib in Resources */ = {isa = PBXBuildFile; fileRef = 279C04E516393343007298E5 /* ViewController_iPhone.xib */; };
 		279C04EA16393343007298E5 /* ViewController_iPad.xib in Resources */ = {isa = PBXBuildFile; fileRef = 279C04E616393343007298E5 /* ViewController_iPad.xib */; };
+		27D022C41654EE0F00C1CF92 /* libGoogleAdMobAds.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 27D022C31654EE0F00C1CF92 /* libGoogleAdMobAds.a */; };
+		27D022C71654EE6E00C1CF92 /* AdSupport.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 27D022C61654EE6E00C1CF92 /* AdSupport.framework */; };
+		27D022C91654EE9200C1CF92 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 27D022C81654EE9200C1CF92 /* AudioToolbox.framework */; };
+		27D022CB1654EE9E00C1CF92 /* MessageUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 27D022CA1654EE9E00C1CF92 /* MessageUI.framework */; };
+		27D022CD1654EEA400C1CF92 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 27D022CC1654EEA400C1CF92 /* SystemConfiguration.framework */; };
+		27D022CF1654EEBB00C1CF92 /* StoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 27D022CE1654EEBB00C1CF92 /* StoreKit.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -53,6 +59,21 @@
 		279C04E416393343007298E5 /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		279C04E516393343007298E5 /* ViewController_iPhone.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ViewController_iPhone.xib; sourceTree = "<group>"; };
 		279C04E616393343007298E5 /* ViewController_iPad.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ViewController_iPad.xib; sourceTree = "<group>"; };
+		27D022BA1654EE0F00C1CF92 /* GADAdMobExtras.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GADAdMobExtras.h; sourceTree = "<group>"; };
+		27D022BB1654EE0F00C1CF92 /* GADAdNetworkExtras.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GADAdNetworkExtras.h; sourceTree = "<group>"; };
+		27D022BC1654EE0F00C1CF92 /* GADAdSize.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GADAdSize.h; sourceTree = "<group>"; };
+		27D022BD1654EE0F00C1CF92 /* GADBannerView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GADBannerView.h; sourceTree = "<group>"; };
+		27D022BE1654EE0F00C1CF92 /* GADBannerViewDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GADBannerViewDelegate.h; sourceTree = "<group>"; };
+		27D022BF1654EE0F00C1CF92 /* GADInterstitial.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GADInterstitial.h; sourceTree = "<group>"; };
+		27D022C01654EE0F00C1CF92 /* GADInterstitialDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GADInterstitialDelegate.h; sourceTree = "<group>"; };
+		27D022C11654EE0F00C1CF92 /* GADRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GADRequest.h; sourceTree = "<group>"; };
+		27D022C21654EE0F00C1CF92 /* GADRequestError.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GADRequestError.h; sourceTree = "<group>"; };
+		27D022C31654EE0F00C1CF92 /* libGoogleAdMobAds.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libGoogleAdMobAds.a; sourceTree = "<group>"; };
+		27D022C61654EE6E00C1CF92 /* AdSupport.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AdSupport.framework; path = System/Library/Frameworks/AdSupport.framework; sourceTree = SDKROOT; };
+		27D022C81654EE9200C1CF92 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		27D022CA1654EE9E00C1CF92 /* MessageUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MessageUI.framework; path = System/Library/Frameworks/MessageUI.framework; sourceTree = SDKROOT; };
+		27D022CC1654EEA400C1CF92 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		27D022CE1654EEBB00C1CF92 /* StoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = StoreKit.framework; path = System/Library/Frameworks/StoreKit.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,9 +81,15 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				27D022CF1654EEBB00C1CF92 /* StoreKit.framework in Frameworks */,
+				27D022CD1654EEA400C1CF92 /* SystemConfiguration.framework in Frameworks */,
+				27D022CB1654EE9E00C1CF92 /* MessageUI.framework in Frameworks */,
+				27D022C91654EE9200C1CF92 /* AudioToolbox.framework in Frameworks */,
+				27D022C71654EE6E00C1CF92 /* AdSupport.framework in Frameworks */,
 				18466E0F161C25C600F3F20A /* UIKit.framework in Frameworks */,
 				18466E11161C25C600F3F20A /* Foundation.framework in Frameworks */,
 				18466E13161C25C600F3F20A /* CoreGraphics.framework in Frameworks */,
+				27D022C41654EE0F00C1CF92 /* libGoogleAdMobAds.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -89,6 +116,11 @@
 		18466E0D161C25C600F3F20A /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				27D022CE1654EEBB00C1CF92 /* StoreKit.framework */,
+				27D022CC1654EEA400C1CF92 /* SystemConfiguration.framework */,
+				27D022CA1654EE9E00C1CF92 /* MessageUI.framework */,
+				27D022C81654EE9200C1CF92 /* AudioToolbox.framework */,
+				27D022C61654EE6E00C1CF92 /* AdSupport.framework */,
 				18466E0E161C25C600F3F20A /* UIKit.framework */,
 				18466E10161C25C600F3F20A /* Foundation.framework */,
 				18466E12161C25C600F3F20A /* CoreGraphics.framework */,
@@ -107,6 +139,7 @@
 		18466E15161C25C600F3F20A /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				27D022B91654EE0F00C1CF92 /* GoogleAdMobAdsSDK */,
 				279C04E116393343007298E5 /* AppDelegate.h */,
 				279C04E216393343007298E5 /* AppDelegate.m */,
 				279C04E316393343007298E5 /* ViewController.h */,
@@ -137,6 +170,23 @@
 				1807D3A71654E5EB00A44AF1 /* iTunesArtwork */,
 			);
 			name = Icons;
+			sourceTree = "<group>";
+		};
+		27D022B91654EE0F00C1CF92 /* GoogleAdMobAdsSDK */ = {
+			isa = PBXGroup;
+			children = (
+				27D022BA1654EE0F00C1CF92 /* GADAdMobExtras.h */,
+				27D022BB1654EE0F00C1CF92 /* GADAdNetworkExtras.h */,
+				27D022BC1654EE0F00C1CF92 /* GADAdSize.h */,
+				27D022BD1654EE0F00C1CF92 /* GADBannerView.h */,
+				27D022BE1654EE0F00C1CF92 /* GADBannerViewDelegate.h */,
+				27D022BF1654EE0F00C1CF92 /* GADInterstitial.h */,
+				27D022C01654EE0F00C1CF92 /* GADInterstitialDelegate.h */,
+				27D022C11654EE0F00C1CF92 /* GADRequest.h */,
+				27D022C21654EE0F00C1CF92 /* GADRequestError.h */,
+				27D022C31654EE0F00C1CF92 /* libGoogleAdMobAds.a */,
+			);
+			path = GoogleAdMobAdsSDK;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -285,6 +335,11 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Darwinism/Darwinism-Prefix.pch";
 				INFOPLIST_FILE = "Darwinism/Darwinism-Info.plist";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/Darwinism/GoogleAdMobAdsSDK\"",
+				);
+				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_NAME = Darwinism;
 				WRAPPER_EXTENSION = app;
 			};
@@ -296,6 +351,11 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Darwinism/Darwinism-Prefix.pch";
 				INFOPLIST_FILE = "Darwinism/Darwinism-Info.plist";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/Darwinism/GoogleAdMobAdsSDK\"",
+				);
+				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_NAME = Darwinism;
 				WRAPPER_EXTENSION = app;
 			};
@@ -328,6 +388,11 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Darwinism/Darwinism-Prefix.pch";
 				INFOPLIST_FILE = "Darwinism/Darwinism-Info.plist";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/Darwinism/GoogleAdMobAdsSDK\"",
+				);
+				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_NAME = Darwinism;
 				WRAPPER_EXTENSION = app;
 			};

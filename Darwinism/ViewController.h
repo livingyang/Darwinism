@@ -8,9 +8,16 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController <UIWebViewDelegate>
+#import "GADBannerViewDelegate.h"
+
+@class GADBannerView, GADRequest;
+@interface ViewController : UIViewController <UIWebViewDelegate, GADBannerViewDelegate>
 
 @property (nonatomic, assign) IBOutlet UIWebView *webView;
 @property (nonatomic, retain) NSString *lastUrl;
+
+@property (strong, nonatomic) GADBannerView *adBanner;
+
+- (GADRequest *)createRequest;
 
 @end
