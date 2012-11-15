@@ -1,0 +1,362 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1807D3A81654E5EB00A44AF1 /* iTunesArtwork in Resources */ = {isa = PBXBuildFile; fileRef = 1807D3A71654E5EB00A44AF1 /* iTunesArtwork */; };
+		18466E0F161C25C600F3F20A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 18466E0E161C25C600F3F20A /* UIKit.framework */; };
+		18466E11161C25C600F3F20A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 18466E10161C25C600F3F20A /* Foundation.framework */; };
+		18466E13161C25C600F3F20A /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 18466E12161C25C600F3F20A /* CoreGraphics.framework */; };
+		18466E19161C25C600F3F20A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 18466E17161C25C600F3F20A /* InfoPlist.strings */; };
+		18466E1B161C25C600F3F20A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 18466E1A161C25C600F3F20A /* main.m */; };
+		1880CD8816538B320024CDB1 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 1880CD8716538B320024CDB1 /* Default-568h@2x.png */; };
+		18C190B01648DF0E00EF4025 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 18C190AF1648DF0E00EF4025 /* Default.png */; };
+		18EC9AE31648DA720084542F /* Icon-72.png in Resources */ = {isa = PBXBuildFile; fileRef = 18EC9ADC1648DA720084542F /* Icon-72.png */; };
+		18EC9AE41648DA720084542F /* Icon-Small-50.png in Resources */ = {isa = PBXBuildFile; fileRef = 18EC9ADD1648DA720084542F /* Icon-Small-50.png */; };
+		18EC9AE51648DA720084542F /* Icon-Small.png in Resources */ = {isa = PBXBuildFile; fileRef = 18EC9ADE1648DA720084542F /* Icon-Small.png */; };
+		18EC9AE61648DA720084542F /* Icon-Small@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 18EC9ADF1648DA720084542F /* Icon-Small@2x.png */; };
+		18EC9AE71648DA720084542F /* Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 18EC9AE01648DA720084542F /* Icon.png */; };
+		18EC9AE81648DA720084542F /* Icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 18EC9AE11648DA720084542F /* Icon@2x.png */; };
+		279C04D316393291007298E5 /* jquery in Resources */ = {isa = PBXBuildFile; fileRef = 279C04D216393291007298E5 /* jquery */; };
+		279C04E716393343007298E5 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 279C04E216393343007298E5 /* AppDelegate.m */; };
+		279C04E816393343007298E5 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 279C04E416393343007298E5 /* ViewController.m */; };
+		279C04E916393343007298E5 /* ViewController_iPhone.xib in Resources */ = {isa = PBXBuildFile; fileRef = 279C04E516393343007298E5 /* ViewController_iPhone.xib */; };
+		279C04EA16393343007298E5 /* ViewController_iPad.xib in Resources */ = {isa = PBXBuildFile; fileRef = 279C04E616393343007298E5 /* ViewController_iPad.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		1807D3A71654E5EB00A44AF1 /* iTunesArtwork */ = {isa = PBXFileReference; lastKnownFileType = file; path = iTunesArtwork; sourceTree = "<group>"; };
+		18466E0A161C25C600F3F20A /* Darwinism.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Darwinism.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		18466E0E161C25C600F3F20A /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		18466E10161C25C600F3F20A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		18466E12161C25C600F3F20A /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		18466E16161C25C600F3F20A /* Darwinism-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Darwinism-Info.plist"; sourceTree = "<group>"; };
+		18466E18161C25C600F3F20A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		18466E1A161C25C600F3F20A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		18466E1C161C25C600F3F20A /* Darwinism-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Darwinism-Prefix.pch"; sourceTree = "<group>"; };
+		1880CD8716538B320024CDB1 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		18C190AF1648DF0E00EF4025 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		18EC9ADC1648DA720084542F /* Icon-72.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-72.png"; sourceTree = "<group>"; };
+		18EC9ADD1648DA720084542F /* Icon-Small-50.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-Small-50.png"; sourceTree = "<group>"; };
+		18EC9ADE1648DA720084542F /* Icon-Small.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-Small.png"; sourceTree = "<group>"; };
+		18EC9ADF1648DA720084542F /* Icon-Small@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-Small@2x.png"; sourceTree = "<group>"; };
+		18EC9AE01648DA720084542F /* Icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Icon.png; sourceTree = "<group>"; };
+		18EC9AE11648DA720084542F /* Icon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon@2x.png"; sourceTree = "<group>"; };
+		279C04D216393291007298E5 /* jquery */ = {isa = PBXFileReference; lastKnownFileType = folder; name = jquery; path = ../../../Sites/jquery; sourceTree = "<group>"; };
+		279C04E116393343007298E5 /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		279C04E216393343007298E5 /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		279C04E316393343007298E5 /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		279C04E416393343007298E5 /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		279C04E516393343007298E5 /* ViewController_iPhone.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ViewController_iPhone.xib; sourceTree = "<group>"; };
+		279C04E616393343007298E5 /* ViewController_iPad.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ViewController_iPad.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		18466E07161C25C600F3F20A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				18466E0F161C25C600F3F20A /* UIKit.framework in Frameworks */,
+				18466E11161C25C600F3F20A /* Foundation.framework in Frameworks */,
+				18466E13161C25C600F3F20A /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		18466DFF161C25C600F3F20A = {
+			isa = PBXGroup;
+			children = (
+				18466E14161C25C600F3F20A /* Darwinism */,
+				18466E0D161C25C600F3F20A /* Frameworks */,
+				18466E0B161C25C600F3F20A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		18466E0B161C25C600F3F20A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				18466E0A161C25C600F3F20A /* Darwinism.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		18466E0D161C25C600F3F20A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				18466E0E161C25C600F3F20A /* UIKit.framework */,
+				18466E10161C25C600F3F20A /* Foundation.framework */,
+				18466E12161C25C600F3F20A /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		18466E14161C25C600F3F20A /* Darwinism */ = {
+			isa = PBXGroup;
+			children = (
+				18466E15161C25C600F3F20A /* Supporting Files */,
+			);
+			path = Darwinism;
+			sourceTree = "<group>";
+		};
+		18466E15161C25C600F3F20A /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				279C04E116393343007298E5 /* AppDelegate.h */,
+				279C04E216393343007298E5 /* AppDelegate.m */,
+				279C04E316393343007298E5 /* ViewController.h */,
+				279C04E416393343007298E5 /* ViewController.m */,
+				279C04E516393343007298E5 /* ViewController_iPhone.xib */,
+				279C04E616393343007298E5 /* ViewController_iPad.xib */,
+				279C04D216393291007298E5 /* jquery */,
+				272B98FD162E5BD6001A5875 /* Icons */,
+				18466E16161C25C600F3F20A /* Darwinism-Info.plist */,
+				1880CD8716538B320024CDB1 /* Default-568h@2x.png */,
+				18C190AF1648DF0E00EF4025 /* Default.png */,
+				18466E17161C25C600F3F20A /* InfoPlist.strings */,
+				18466E1A161C25C600F3F20A /* main.m */,
+				18466E1C161C25C600F3F20A /* Darwinism-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		272B98FD162E5BD6001A5875 /* Icons */ = {
+			isa = PBXGroup;
+			children = (
+				18EC9ADC1648DA720084542F /* Icon-72.png */,
+				18EC9ADD1648DA720084542F /* Icon-Small-50.png */,
+				18EC9ADE1648DA720084542F /* Icon-Small.png */,
+				18EC9ADF1648DA720084542F /* Icon-Small@2x.png */,
+				18EC9AE01648DA720084542F /* Icon.png */,
+				18EC9AE11648DA720084542F /* Icon@2x.png */,
+				1807D3A71654E5EB00A44AF1 /* iTunesArtwork */,
+			);
+			name = Icons;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		18466E09161C25C600F3F20A /* Darwinism */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 18466E2E161C25C600F3F20A /* Build configuration list for PBXNativeTarget "Darwinism" */;
+			buildPhases = (
+				18466E06161C25C600F3F20A /* Sources */,
+				18466E07161C25C600F3F20A /* Frameworks */,
+				18466E08161C25C600F3F20A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Darwinism;
+			productName = "Kof Video";
+			productReference = 18466E0A161C25C600F3F20A /* Darwinism.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		18466E01161C25C600F3F20A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0450;
+			};
+			buildConfigurationList = 18466E04161C25C600F3F20A /* Build configuration list for PBXProject "Darwinism" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 18466DFF161C25C600F3F20A;
+			productRefGroup = 18466E0B161C25C600F3F20A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				18466E09161C25C600F3F20A /* Darwinism */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		18466E08161C25C600F3F20A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				18466E19161C25C600F3F20A /* InfoPlist.strings in Resources */,
+				279C04D316393291007298E5 /* jquery in Resources */,
+				279C04E916393343007298E5 /* ViewController_iPhone.xib in Resources */,
+				279C04EA16393343007298E5 /* ViewController_iPad.xib in Resources */,
+				18EC9AE31648DA720084542F /* Icon-72.png in Resources */,
+				18EC9AE41648DA720084542F /* Icon-Small-50.png in Resources */,
+				18EC9AE51648DA720084542F /* Icon-Small.png in Resources */,
+				18EC9AE61648DA720084542F /* Icon-Small@2x.png in Resources */,
+				18EC9AE71648DA720084542F /* Icon.png in Resources */,
+				18EC9AE81648DA720084542F /* Icon@2x.png in Resources */,
+				18C190B01648DF0E00EF4025 /* Default.png in Resources */,
+				1880CD8816538B320024CDB1 /* Default-568h@2x.png in Resources */,
+				1807D3A81654E5EB00A44AF1 /* iTunesArtwork in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		18466E06161C25C600F3F20A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				18466E1B161C25C600F3F20A /* main.m in Sources */,
+				279C04E716393343007298E5 /* AppDelegate.m in Sources */,
+				279C04E816393343007298E5 /* ViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		18466E17161C25C600F3F20A /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				18466E18161C25C600F3F20A /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		18466E2C161C25C600F3F20A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 3.2;
+				PROVISIONING_PROFILE = "";
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		18466E2D161C25C600F3F20A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 3.2;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				PROVISIONING_PROFILE = "";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		18466E2F161C25C600F3F20A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Darwinism/Darwinism-Prefix.pch";
+				INFOPLIST_FILE = "Darwinism/Darwinism-Info.plist";
+				PRODUCT_NAME = Darwinism;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		18466E30161C25C600F3F20A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Darwinism/Darwinism-Prefix.pch";
+				INFOPLIST_FILE = "Darwinism/Darwinism-Info.plist";
+				PRODUCT_NAME = Darwinism;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		272B98FA162E5736001A5875 /* Distribution */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CODE_SIGN_IDENTITY = "iPhone Distribution: LI MING";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 3.2;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				PROVISIONING_PROFILE = "89F3C97E-837D-4587-A9C8-055DBA795A90";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Distribution;
+		};
+		272B98FB162E5736001A5875 /* Distribution */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Darwinism/Darwinism-Prefix.pch";
+				INFOPLIST_FILE = "Darwinism/Darwinism-Info.plist";
+				PRODUCT_NAME = Darwinism;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Distribution;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		18466E04161C25C600F3F20A /* Build configuration list for PBXProject "Darwinism" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				18466E2C161C25C600F3F20A /* Debug */,
+				18466E2D161C25C600F3F20A /* Release */,
+				272B98FA162E5736001A5875 /* Distribution */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		18466E2E161C25C600F3F20A /* Build configuration list for PBXNativeTarget "Darwinism" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				18466E2F161C25C600F3F20A /* Debug */,
+				18466E30161C25C600F3F20A /* Release */,
+				272B98FB162E5736001A5875 /* Distribution */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 18466E01161C25C600F3F20A /* Project object */;
+}
