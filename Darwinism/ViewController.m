@@ -91,6 +91,13 @@
 {
     self.lastUrl = request.URL.absoluteString;
     
+    if ([self.lastUrl rangeOfString:@"itunes.apple.com"].length != 0)
+    {
+        [[UIApplication sharedApplication] openURL:[request URL]];
+        return NO;
+    }
+    NSLog(@"url = %@", self.lastUrl);
+    
     return YES;
 }
 
