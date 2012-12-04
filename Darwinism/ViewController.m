@@ -12,6 +12,8 @@
 
 #define kSampleAdUnitID @"a14e365a26a7b67"
 
+#define degreesToRadians(x) (M_PI * x / 180.0)
+
 @interface ViewController ()
 
 @end
@@ -78,6 +80,55 @@
     } else {
         return YES;
     }
+}
+
+//- (CGPoint)getPositionFromOrientation:(UIInterfaceOrientation)toInterfaceOrientation
+//{
+//    return CGPointMake(0, (UIInterfaceOrientationIsPortrait(toInterfaceOrientation) ? self.view.frame.size.height : self.view.frame.size.width) - CGSizeFromGADAdSize(kGADAdSizeBanner).height);
+//}
+//
+//- (void)willAnimateRotationToInterfaceOrientation:(UIInterfaceOrientation)toInterfaceOrientation duration:(NSTimeInterval)duration
+//{
+//    self.adBanner.center = [self getPositionFromOrientation:toInterfaceOrientation];
+//    if (UIInterfaceOrientationIsPortrait(toInterfaceOrientation)) {
+//        NSLog(@"1");
+//    } else {
+//        NSLog(@"2");
+//    }
+//}
+//
+
+- (CGPoint)getPositionFromOrientation:(UIInterfaceOrientation)interfaceOrientation viewSize:(CGSize)viewSize
+{
+    CGSize screenSize = [UIScreen mainScreen].bounds.size;
+    
+    if (UIInterfaceOrientationIsPortrait(interfaceOrientation))
+    {
+        return CGPointMake(screenSize.width / 2.0f, screenSize.height - (viewSize.height / 2.0f));
+    }
+    else
+    {
+        return CGPointMake(screenSize.height / 2.0f, screenSize.width - (viewSize.height / 2.0f));
+    }
+}
+
+- (void)willRotateToInterfaceOrientation:(UIInterfaceOrientation)toInterfaceOrientation duration:(NSTimeInterval)duration
+{
+    [UIView beginAnimations:@"Rotate" context:NULL];
+    [UIView setAnimationDuration:duration];
+    self.adBanner.center = [self getPositionFromOrientation:toInterfaceOrientation viewSize:self.adBanner.bounds.size];
+    
+    [UIView commitAnimations];
+}
+
+- (void)didRotateFromInterfaceOrientation:(UIInterfaceOrientation)fromInterfaceOrientation
+{
+    NSLog(@"didRotateFromInterfaceOrientation orientation = %d", fromInterfaceOrientation);
+//    CGPoint origin = CGPointMake(0.0,
+//                                 self.view.frame.size.height -
+//                                 CGSizeFromGADAdSize(kGADAdSizeBanner).height);
+//    
+//    self.adBanner.center = origin;
 }
 
 - (void)updateToShowInfo
