@@ -14,6 +14,31 @@
 		18466E19161C25C600F3F20A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 18466E17161C25C600F3F20A /* InfoPlist.strings */; };
 		18466E1B161C25C600F3F20A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 18466E1A161C25C600F3F20A /* main.m */; };
 		1880CD8816538B320024CDB1 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 1880CD8716538B320024CDB1 /* Default-568h@2x.png */; };
+		1883C6B1167300D6001BAAF3 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 18466E1A161C25C600F3F20A /* main.m */; };
+		1883C6B2167300D6001BAAF3 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 279C04E216393343007298E5 /* AppDelegate.m */; };
+		1883C6B3167300D6001BAAF3 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 279C04E416393343007298E5 /* ViewController.m */; };
+		1883C6B5167300D6001BAAF3 /* StoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 27D022CE1654EEBB00C1CF92 /* StoreKit.framework */; };
+		1883C6B6167300D6001BAAF3 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 27D022CC1654EEA400C1CF92 /* SystemConfiguration.framework */; };
+		1883C6B7167300D6001BAAF3 /* MessageUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 27D022CA1654EE9E00C1CF92 /* MessageUI.framework */; };
+		1883C6B8167300D6001BAAF3 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 27D022C81654EE9200C1CF92 /* AudioToolbox.framework */; };
+		1883C6B9167300D6001BAAF3 /* AdSupport.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 27D022C61654EE6E00C1CF92 /* AdSupport.framework */; };
+		1883C6BA167300D6001BAAF3 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 18466E0E161C25C600F3F20A /* UIKit.framework */; };
+		1883C6BB167300D6001BAAF3 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 18466E10161C25C600F3F20A /* Foundation.framework */; };
+		1883C6BC167300D6001BAAF3 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 18466E12161C25C600F3F20A /* CoreGraphics.framework */; };
+		1883C6BD167300D6001BAAF3 /* libGoogleAdMobAds.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 27D022C31654EE0F00C1CF92 /* libGoogleAdMobAds.a */; };
+		1883C6BF167300D6001BAAF3 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 18466E17161C25C600F3F20A /* InfoPlist.strings */; };
+		1883C6C1167300D6001BAAF3 /* ViewController_iPhone.xib in Resources */ = {isa = PBXBuildFile; fileRef = 279C04E516393343007298E5 /* ViewController_iPhone.xib */; };
+		1883C6C2167300D6001BAAF3 /* ViewController_iPad.xib in Resources */ = {isa = PBXBuildFile; fileRef = 279C04E616393343007298E5 /* ViewController_iPad.xib */; };
+		1883C6C3167300D6001BAAF3 /* Icon-72.png in Resources */ = {isa = PBXBuildFile; fileRef = 18EC9ADC1648DA720084542F /* Icon-72.png */; };
+		1883C6C4167300D6001BAAF3 /* Icon-Small-50.png in Resources */ = {isa = PBXBuildFile; fileRef = 18EC9ADD1648DA720084542F /* Icon-Small-50.png */; };
+		1883C6C5167300D6001BAAF3 /* Icon-Small.png in Resources */ = {isa = PBXBuildFile; fileRef = 18EC9ADE1648DA720084542F /* Icon-Small.png */; };
+		1883C6C6167300D6001BAAF3 /* Icon-Small@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 18EC9ADF1648DA720084542F /* Icon-Small@2x.png */; };
+		1883C6C7167300D6001BAAF3 /* Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 18EC9AE01648DA720084542F /* Icon.png */; };
+		1883C6C8167300D6001BAAF3 /* Icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 18EC9AE11648DA720084542F /* Icon@2x.png */; };
+		1883C6C9167300D6001BAAF3 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 18C190AF1648DF0E00EF4025 /* Default.png */; };
+		1883C6CA167300D6001BAAF3 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 1880CD8716538B320024CDB1 /* Default-568h@2x.png */; };
+		1883C6CB167300D6001BAAF3 /* iTunesArtwork in Resources */ = {isa = PBXBuildFile; fileRef = 1807D3A71654E5EB00A44AF1 /* iTunesArtwork */; };
+		1883C6D516731185001BAAF3 /* DarwinismLite in Resources */ = {isa = PBXBuildFile; fileRef = 1883C6D416731185001BAAF3 /* DarwinismLite */; };
 		18C190B01648DF0E00EF4025 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 18C190AF1648DF0E00EF4025 /* Default.png */; };
 		18EC9AE31648DA720084542F /* Icon-72.png in Resources */ = {isa = PBXBuildFile; fileRef = 18EC9ADC1648DA720084542F /* Icon-72.png */; };
 		18EC9AE41648DA720084542F /* Icon-Small-50.png in Resources */ = {isa = PBXBuildFile; fileRef = 18EC9ADD1648DA720084542F /* Icon-Small-50.png */; };
@@ -21,7 +46,7 @@
 		18EC9AE61648DA720084542F /* Icon-Small@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 18EC9ADF1648DA720084542F /* Icon-Small@2x.png */; };
 		18EC9AE71648DA720084542F /* Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 18EC9AE01648DA720084542F /* Icon.png */; };
 		18EC9AE81648DA720084542F /* Icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 18EC9AE11648DA720084542F /* Icon@2x.png */; };
-		279C04D316393291007298E5 /* jquery in Resources */ = {isa = PBXBuildFile; fileRef = 279C04D216393291007298E5 /* jquery */; };
+		279C04D316393291007298E5 /* DarwinismFull in Resources */ = {isa = PBXBuildFile; fileRef = 279C04D216393291007298E5 /* DarwinismFull */; };
 		279C04E716393343007298E5 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 279C04E216393343007298E5 /* AppDelegate.m */; };
 		279C04E816393343007298E5 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 279C04E416393343007298E5 /* ViewController.m */; };
 		279C04E916393343007298E5 /* ViewController_iPhone.xib in Resources */ = {isa = PBXBuildFile; fileRef = 279C04E516393343007298E5 /* ViewController_iPhone.xib */; };
@@ -36,6 +61,7 @@
 
 /* Begin PBXFileReference section */
 		1807D3A71654E5EB00A44AF1 /* iTunesArtwork */ = {isa = PBXFileReference; lastKnownFileType = file; path = iTunesArtwork; sourceTree = "<group>"; };
+		182E7B0D16731F1400BCFF0C /* DarwinismLite-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "DarwinismLite-Info.plist"; sourceTree = "<group>"; };
 		18466E0A161C25C600F3F20A /* Darwinism.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Darwinism.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		18466E0E161C25C600F3F20A /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		18466E10161C25C600F3F20A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -45,6 +71,8 @@
 		18466E1A161C25C600F3F20A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		18466E1C161C25C600F3F20A /* Darwinism-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Darwinism-Prefix.pch"; sourceTree = "<group>"; };
 		1880CD8716538B320024CDB1 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		1883C6D0167300D6001BAAF3 /* Darwinism Lite.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Darwinism Lite.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1883C6D416731185001BAAF3 /* DarwinismLite */ = {isa = PBXFileReference; lastKnownFileType = folder; name = DarwinismLite; path = ../../../../../Volumes/Site/DarwinismLite; sourceTree = "<group>"; };
 		18C190AF1648DF0E00EF4025 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
 		18EC9ADC1648DA720084542F /* Icon-72.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-72.png"; sourceTree = "<group>"; };
 		18EC9ADD1648DA720084542F /* Icon-Small-50.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-Small-50.png"; sourceTree = "<group>"; };
@@ -52,7 +80,7 @@
 		18EC9ADF1648DA720084542F /* Icon-Small@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-Small@2x.png"; sourceTree = "<group>"; };
 		18EC9AE01648DA720084542F /* Icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Icon.png; sourceTree = "<group>"; };
 		18EC9AE11648DA720084542F /* Icon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon@2x.png"; sourceTree = "<group>"; };
-		279C04D216393291007298E5 /* jquery */ = {isa = PBXFileReference; lastKnownFileType = folder; name = jquery; path = ../../../Sites/jquery; sourceTree = "<group>"; };
+		279C04D216393291007298E5 /* DarwinismFull */ = {isa = PBXFileReference; lastKnownFileType = folder; name = DarwinismFull; path = ../../../../../Volumes/Site/DarwinismFull; sourceTree = "<group>"; };
 		279C04E116393343007298E5 /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		279C04E216393343007298E5 /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		279C04E316393343007298E5 /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
@@ -93,6 +121,22 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		1883C6B4167300D6001BAAF3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1883C6B5167300D6001BAAF3 /* StoreKit.framework in Frameworks */,
+				1883C6B6167300D6001BAAF3 /* SystemConfiguration.framework in Frameworks */,
+				1883C6B7167300D6001BAAF3 /* MessageUI.framework in Frameworks */,
+				1883C6B8167300D6001BAAF3 /* AudioToolbox.framework in Frameworks */,
+				1883C6B9167300D6001BAAF3 /* AdSupport.framework in Frameworks */,
+				1883C6BA167300D6001BAAF3 /* UIKit.framework in Frameworks */,
+				1883C6BB167300D6001BAAF3 /* Foundation.framework in Frameworks */,
+				1883C6BC167300D6001BAAF3 /* CoreGraphics.framework in Frameworks */,
+				1883C6BD167300D6001BAAF3 /* libGoogleAdMobAds.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -109,6 +153,7 @@
 			isa = PBXGroup;
 			children = (
 				18466E0A161C25C600F3F20A /* Darwinism.app */,
+				1883C6D0167300D6001BAAF3 /* Darwinism Lite.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -146,9 +191,11 @@
 				279C04E416393343007298E5 /* ViewController.m */,
 				279C04E516393343007298E5 /* ViewController_iPhone.xib */,
 				279C04E616393343007298E5 /* ViewController_iPad.xib */,
-				279C04D216393291007298E5 /* jquery */,
+				279C04D216393291007298E5 /* DarwinismFull */,
+				1883C6D416731185001BAAF3 /* DarwinismLite */,
 				272B98FD162E5BD6001A5875 /* Icons */,
 				18466E16161C25C600F3F20A /* Darwinism-Info.plist */,
+				182E7B0D16731F1400BCFF0C /* DarwinismLite-Info.plist */,
 				1880CD8716538B320024CDB1 /* Default-568h@2x.png */,
 				18C190AF1648DF0E00EF4025 /* Default.png */,
 				18466E17161C25C600F3F20A /* InfoPlist.strings */,
@@ -209,6 +256,23 @@
 			productReference = 18466E0A161C25C600F3F20A /* Darwinism.app */;
 			productType = "com.apple.product-type.application";
 		};
+		1883C6AF167300D6001BAAF3 /* DarwinismLite */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1883C6CC167300D6001BAAF3 /* Build configuration list for PBXNativeTarget "DarwinismLite" */;
+			buildPhases = (
+				1883C6B0167300D6001BAAF3 /* Sources */,
+				1883C6B4167300D6001BAAF3 /* Frameworks */,
+				1883C6BE167300D6001BAAF3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DarwinismLite;
+			productName = "Kof Video";
+			productReference = 1883C6D0167300D6001BAAF3 /* Darwinism Lite.app */;
+			productType = "com.apple.product-type.application";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -230,6 +294,7 @@
 			projectRoot = "";
 			targets = (
 				18466E09161C25C600F3F20A /* Darwinism */,
+				1883C6AF167300D6001BAAF3 /* DarwinismLite */,
 			);
 		};
 /* End PBXProject section */
@@ -240,7 +305,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				18466E19161C25C600F3F20A /* InfoPlist.strings in Resources */,
-				279C04D316393291007298E5 /* jquery in Resources */,
+				279C04D316393291007298E5 /* DarwinismFull in Resources */,
 				279C04E916393343007298E5 /* ViewController_iPhone.xib in Resources */,
 				279C04EA16393343007298E5 /* ViewController_iPad.xib in Resources */,
 				18EC9AE31648DA720084542F /* Icon-72.png in Resources */,
@@ -255,6 +320,26 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		1883C6BE167300D6001BAAF3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1883C6BF167300D6001BAAF3 /* InfoPlist.strings in Resources */,
+				1883C6C1167300D6001BAAF3 /* ViewController_iPhone.xib in Resources */,
+				1883C6C2167300D6001BAAF3 /* ViewController_iPad.xib in Resources */,
+				1883C6C3167300D6001BAAF3 /* Icon-72.png in Resources */,
+				1883C6C4167300D6001BAAF3 /* Icon-Small-50.png in Resources */,
+				1883C6C5167300D6001BAAF3 /* Icon-Small.png in Resources */,
+				1883C6C6167300D6001BAAF3 /* Icon-Small@2x.png in Resources */,
+				1883C6C7167300D6001BAAF3 /* Icon.png in Resources */,
+				1883C6C8167300D6001BAAF3 /* Icon@2x.png in Resources */,
+				1883C6C9167300D6001BAAF3 /* Default.png in Resources */,
+				1883C6CA167300D6001BAAF3 /* Default-568h@2x.png in Resources */,
+				1883C6CB167300D6001BAAF3 /* iTunesArtwork in Resources */,
+				1883C6D516731185001BAAF3 /* DarwinismLite in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -265,6 +350,16 @@
 				18466E1B161C25C600F3F20A /* main.m in Sources */,
 				279C04E716393343007298E5 /* AppDelegate.m in Sources */,
 				279C04E816393343007298E5 /* ViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1883C6B0167300D6001BAAF3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1883C6B1167300D6001BAAF3 /* main.m in Sources */,
+				1883C6B2167300D6001BAAF3 /* AppDelegate.m in Sources */,
+				1883C6B3167300D6001BAAF3 /* ViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -302,7 +397,7 @@
 				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 3.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
 				PROVISIONING_PROFILE = "";
 				SDKROOT = iphoneos;
 			};
@@ -321,7 +416,7 @@
 				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 3.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
 				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
 				PROVISIONING_PROFILE = "";
 				SDKROOT = iphoneos;
@@ -335,12 +430,14 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Darwinism/Darwinism-Prefix.pch";
 				INFOPLIST_FILE = "Darwinism/Darwinism-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
 					"\"$(SRCROOT)/Darwinism/GoogleAdMobAdsSDK\"",
 				);
 				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_NAME = Darwinism;
+				TARGETED_DEVICE_FAMILY = 1;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -351,15 +448,71 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Darwinism/Darwinism-Prefix.pch";
 				INFOPLIST_FILE = "Darwinism/Darwinism-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
 					"\"$(SRCROOT)/Darwinism/GoogleAdMobAdsSDK\"",
 				);
 				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_NAME = Darwinism;
+				TARGETED_DEVICE_FAMILY = 1;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;
+		};
+		1883C6CD167300D6001BAAF3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Darwinism/Darwinism-Prefix.pch";
+				INFOPLIST_FILE = "Darwinism/DarwinismLite-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/Darwinism/GoogleAdMobAdsSDK\"",
+				);
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "Darwinism Lite";
+				TARGETED_DEVICE_FAMILY = 1;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		1883C6CE167300D6001BAAF3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Darwinism/Darwinism-Prefix.pch";
+				INFOPLIST_FILE = "Darwinism/DarwinismLite-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/Darwinism/GoogleAdMobAdsSDK\"",
+				);
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "Darwinism Lite";
+				TARGETED_DEVICE_FAMILY = 1;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		1883C6CF167300D6001BAAF3 /* Distribution */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Darwinism/Darwinism-Prefix.pch";
+				INFOPLIST_FILE = "Darwinism/DarwinismLite-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/Darwinism/GoogleAdMobAdsSDK\"",
+				);
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "Darwinism Lite";
+				TARGETED_DEVICE_FAMILY = 1;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Distribution;
 		};
 		272B98FA162E5736001A5875 /* Distribution */ = {
 			isa = XCBuildConfiguration;
@@ -374,7 +527,7 @@
 				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 3.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
 				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
 				PROVISIONING_PROFILE = "89F3C97E-837D-4587-A9C8-055DBA795A90";
 				SDKROOT = iphoneos;
@@ -388,12 +541,14 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Darwinism/Darwinism-Prefix.pch";
 				INFOPLIST_FILE = "Darwinism/Darwinism-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
 					"\"$(SRCROOT)/Darwinism/GoogleAdMobAdsSDK\"",
 				);
 				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_NAME = Darwinism;
+				TARGETED_DEVICE_FAMILY = 1;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Distribution;
@@ -417,6 +572,16 @@
 				18466E2F161C25C600F3F20A /* Debug */,
 				18466E30161C25C600F3F20A /* Release */,
 				272B98FB162E5736001A5875 /* Distribution */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1883C6CC167300D6001BAAF3 /* Build configuration list for PBXNativeTarget "DarwinismLite" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1883C6CD167300D6001BAAF3 /* Debug */,
+				1883C6CE167300D6001BAAF3 /* Release */,
+				1883C6CF167300D6001BAAF3 /* Distribution */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

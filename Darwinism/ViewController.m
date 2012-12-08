@@ -32,6 +32,11 @@
     [super dealloc];
 }
 
+- (BOOL)isLiteVersion
+{
+    return [[NSBundle mainBundle].bundleIdentifier isEqualToString:@"com.coolsoul.darwinism-lite"];
+}
+
 - (void)viewDidLoad
 {
     [super viewDidLoad];
@@ -39,7 +44,9 @@
     
     [self updateToShowInfo];
     
-    NSURL *url = [NSURL fileURLWithPath:[[NSBundle mainBundle].resourcePath stringByAppendingPathComponent:@"jquery/index.html"]];
+    NSURL *url = [NSURL fileURLWithPath:[[NSBundle mainBundle].resourcePath stringByAppendingPathComponent:
+                                         [self isLiteVersion] ? @"DarwinismLite/index.html" : @"DarwinismFull/index.html"]];
+    
     [self.webView loadRequest:[NSURLRequest requestWithURL:url]];
     self.webView.scrollView.bounces = NO;
     self.webView.delegate = self;
@@ -62,8 +69,7 @@
     self.adBanner.delegate = self;
     [self.adBanner setRootViewController:self];
     [self.view addSubview:self.adBanner];
-    self.adBanner.center =
-    CGPointMake(self.view.center.x, self.adBanner.center.y);
+    self.adBanner.center = [self getPositionFromOrientation:self.interfaceOrientation viewSize:self.adBanner.bounds.size];
     [self.adBanner loadRequest:[self createRequest]];
 }
 
@@ -133,8 +139,15 @@
 
 - (void)updateToShowInfo
 {
+    if ([self isLiteVersion])
+    {
+        [self.adBanner setHidden:NO];
+        return;
+    }
+    
     [self.adBanner setHidden:!(self.webView.canGoBack && [self.lastUrl.lastPathComponent rangeOfString:@"video"].length != 0)];
-
+    
+//    [self.adBanner setHidden:YES];
     [self performSelector:@selector(updateToShowInfo) withObject:nil afterDelay:0.1];
 }
 
