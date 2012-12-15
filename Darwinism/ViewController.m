@@ -139,6 +139,8 @@
 
 - (void)updateToShowInfo
 {
+    [self.adBanner setHidden:YES];
+    return;
     if ([self isLiteVersion])
     {
         [self.adBanner setHidden:NO];
@@ -147,7 +149,6 @@
     
     [self.adBanner setHidden:!(self.webView.canGoBack && [self.lastUrl.lastPathComponent rangeOfString:@"video"].length != 0)];
     
-//    [self.adBanner setHidden:YES];
     [self performSelector:@selector(updateToShowInfo) withObject:nil afterDelay:0.1];
 }
 
